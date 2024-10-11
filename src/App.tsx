@@ -7,7 +7,7 @@ const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState('home')
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-iiiiih-screen">
       <Header setActiveTab={setActiveTab} />
       <main className="flex-grow overflow-y-auto">
         <Home />
